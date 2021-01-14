@@ -31,6 +31,9 @@ label{
 text-align:center;
 font-size:40px;
 }
+legend{
+    font-size:40px;
+}
 </style>
 <script>
 function getName(){
@@ -48,14 +51,16 @@ setTimeout(() => document.write("Connecting...".fontsize(50)),2000);
 }
 </script>
 <body>
+    <form onsubmit="return false">
 <fieldset>
 <legend>REGISTER</legend>
 <center><label for="x">EMAIL:</label>
-<input type="text" id="username" name="x"></center>
+<input type="text" id="username" name="x"><br></center>
 <br/>
 <center><label for="y">PASSWORD:</label>
-<input type="password" id="pwd" name="y"></center>
+<input type="password" id="pwd" name="y" ><br></center>
 <br/>
-<center><input type="submit" value="Submit" onSubmit="return getName()"></center>
+<center><input type="submit" value="Submit" onclick="getName()"></center>
 </fieldset>
+</form>
 </html>
