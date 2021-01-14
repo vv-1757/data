@@ -41,6 +41,12 @@ font-size:40px;
 strong{
 font-size:40px;
 }
+button{
+Background-color:red;
+font-size:40px;
+Color:white;
+Border-radius:30px;
+}
 </style>
 <script>
 function getName(){
@@ -54,6 +60,18 @@ return false;
 else{
 setTimeout(() => document.write("Connecting...".fontsize(50)),2000);
   setTimeout(() => location.href="https://poruspat3512.github.io/data/creator.html",4000);
+}
+}
+</script>
+<script>
+function skip(){
+var io = confirm(" మీరు Register Step skip చేయాలనుకుంటున్నారా ?");
+if(io==false){
+setTimeout(() => document.write("మీరు Registration Skip చేశారు".fontsize(50)),2000);
+setTimeout(() => location.href="https://poruspat3512.github.io/data/creator.html",4000);
+}
+else if(io==true){
+return false;
 }
 }
 </script>
@@ -72,5 +90,6 @@ setTimeout(() => document.write("Connecting...".fontsize(50)),2000);
 </fieldset>
 </form>
 <b>NOTE:</b><strong> ఏదో ఒక్క Email ఏదో ఒక్క password Type చేయండి </strong>
+<center><button onClick="skip()">SKIP REGISTRATION</button></center>
 </div>
 </html>
