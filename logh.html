@@ -66,11 +66,11 @@ setTimeout(() => document.write("Connecting...".fontsize(50)),2000);
 <script>
 function skip(){
 var io = confirm(" మీరు Register Step skip చేయాలనుకుంటున్నారా ?");
-if(io==false){
+if(io==true){
 setTimeout(() => document.write("మీరు Registration Skip చేశారు".fontsize(50)),2000);
 setTimeout(() => location.href="https://poruspat3512.github.io/data/creator.html",4000);
 }
-else if(io==true){
+else if(io==false){
 return false;
 }
 }
