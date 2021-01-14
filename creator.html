@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<html>
-<title>Creator </title>
+<html lang="te" dir="ltr">
+<meta charset="UTF-8">
+<title> సృష్టించిన </title>
 <style>
 body{
 background:lightblue;
@@ -12,16 +13,20 @@ font-size:50px;
 #title{
 font-size:40px;
 Color:white;
+font-weight:4px;
 }
 </style>
 <script>
 function TaUrl(){
 setTimeout(() => document.getElementById("TransformI").src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0VlibPI64uirD1rp4KZ6dYrP8cwc7blrhNQ&usqp=CAU",4000);
+setTimeout(() => document.getElementById("title").style.color="red"),4000);;
+setTimeout(() => document.getElementById("title").innerHTML=" సంక్రాంతి శుభాకాంక్షలు";
+}
 }
 </script>
 <body onload="TaUrl()">
 <img src="https://poruspat3512.github.io/data/31.jpg" id="TransformI" alt="NOt Loaded Image Wait For Loading Or if No Internet On Internet To See Image" width="1000" height="1200">
-<h1>Created By </h1><br/>
+<h1 id="change">సృష్టించినది " హర్ష వర్ధన్"</h1><br/>
 <p id="title">WAIT FOR 4 SECONDS....</p>
 </body>
 </html>
