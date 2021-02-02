@@ -1,6 +1,6 @@
 <html>
 <head>
-<center><img src="/DORAEMON1.png"></center>
+<center><img src="DORAEMON1.png"></center>
 <h1><center>Doraemon Server Premium /v1.0</center></h1>
 </head>
 <body>
