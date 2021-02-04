@@ -9,7 +9,13 @@
 <h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ADMIN ERROR<h1></br>
 <h1><center>SORRY , YOUR NOT OWNER OF THIS SERVER</center> </h1>
 </head>
+  <script>
+  var ad = document.getElementById("Doraemon-Server-Name").value;
+    var p = document.getElementById("Doraemon-Server-Password").value;
+    document.getElementById("proc").innerHTML = `Your Name ${ad} and YOUR PASSWORD ${p} is Wrong`;
+  </script>
 <body style="color:white;background-color:red">
+  <p id="proc"> </p>
 <hr><center>Doraemon Server/v1.0</center>
 </body>
 </html>
