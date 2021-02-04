@@ -8,6 +8,18 @@
 <meta name="theme-color" content="lightblue">
     </head>
 <link rel="stylesheet" type="text/css" href="./Doraemon-Server-Graphics/Graphics.css">
+    <script>
+    function loadDoc() {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+     document.getElementById("demo").innerHTML = this.responseText;
+    }
+  };
+  xhttp.open("GET", "3512 ERROR.html", true);
+  xhttp.send();
+}
+    </script>
  <body>
  <fieldset id="Doraemon-Admin-field">
 <form action="3512 ERROR.html" method="GET">
@@ -21,7 +33,7 @@
  <input type="password" name="password" id="Doraemon-Server-Password" pattern="[aA-zZ]{8}" title="password Should Be 8 letters" required>
  <br/>
  <br/>
- <center>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" id="Doraemon-Server-Logon" value="Login"></center>
+ <center>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" onclick="loadDoc()" id="Doraemon-Server-Logon" value="Login"></center>
  </fieldset>  
 <center id="Doraemon-Server-Caption"> <b>Copyright &copy; 1980-2021 Doraemon Corporation</b></center>
  </form>
