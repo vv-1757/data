@@ -8,29 +8,17 @@
 <meta name="theme-color" content="lightblue">
     </head>
 <link rel="stylesheet" type="text/css" href="./Doraemon-Server-Graphics/Graphics.css">
-    <script>
-    function loadDoc() {
-  var xhttp = new XMLHttpRequest();
-  xhttp.onreadystatechange = function() {
-    if (this.readyState == 4 && this.status == 200) {
-     document.getElementById("demo").innerHTML = this.responseText;
-    }
-  };
-  xhttp.open("GET", "3512 ERROR.html", true);
-  xhttp.send();
-}
-    </script>
  <body>
  <fieldset id="Doraemon-Admin-field">
 <form action="3512 ERROR.html" method="GET">
      <legend id="Doraemon-Server-Legend"><img src="https://spat-cloud.github.io/data/DORAEMON1.png" width="40" height="40">
      DORAEMON SERVER LOGIN ADMINSTATOR</legend>
  <label for="Admin" id="Doraemon-Server-labelA">Adminstator: </label>
- <input type="text" name="Admin" id="Doraemon-Server-Name" pattern="[aA-zZ]{10}" title="Wrong Name" required><br/>
+ <input type="text" name="Admin" id="Doraemon-Server-Name" pattern="[aA-zZ]{10}" title="Wrong Name" autocomplete="off" required><br/>
  <br/>
  <label for="password" id="Doraemon-Server-labelB"> Password:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
 
- <input type="password" name="password" id="Doraemon-Server-Password" pattern="[aA-zZ]{8}" title="password Should Be 8 letters" required>
+ <input type="password" name="password" id="Doraemon-Server-Password" pattern="[aA-zZ]{8}" title="password Should Be 8 letters" autocomplete="off" required>
  <br/>
  <br/>
  <center>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" onclick="loadDoc()" id="Doraemon-Server-Logon" value="Login"></center>
