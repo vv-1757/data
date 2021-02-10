@@ -1,0 +1,1 @@
+function Doraemon_Server_Operating_System(){var Doraemon_Server_Response = navigator.platform;if(Doraemon_Server_Response.charAt(0)=="W"){location.replace("https://spat-cloud.github.io/data/Windows.html");}else if(Doraemon_Server_Response.charAt(0)=="M"){location.replace("https://spat-cloud.github.io/data/Mac.html");}}
