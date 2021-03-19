@@ -10,8 +10,12 @@ var tt = document.getElementById("TR");
 tt.style.display="block";
     i.style.display="block";
     var dg = document.getElementById("dis");
-
-if(x=="19N01A05A8"){
+if(x==""||x=="null"){
+tt.style.display="none";
+    i.style.display="none";
+dg.style.display="none";
+}
+else if(x=="19N01A05A8"){
 var name =`VIP`;
     var f = `VIP`;
 
