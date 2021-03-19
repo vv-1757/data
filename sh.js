@@ -93,13 +93,14 @@ var stt = navigator.onLine;
     }
 }
 function Doraemon_Server_Status(){
-    var stat=navigatior.onLine;
-var cf = document.getElementById("NoI");
-    if(stt=="true"){
-    cf.style.display="none";
+    var t= new Date();
+var h = t.getHours();
+var m = t.getMinutes();
+    if(h>=22){
+    location.replace("https://spat-cloud.github.io/data/TimedOut.html");
     }
-    else{
-        cf.style.display="block";
+    else if(h>=8){
+        location.replace("https://spat-cloud.github.io/data/File.html");
     }
 }
 function Throw(){var e = document.getElementById("ERROR");e.style.color="red";e.style.fontSize="30px";e.innerHTML="ERROR WHILE LOADING";
