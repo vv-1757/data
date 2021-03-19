@@ -25,6 +25,33 @@ var re = `<b>Name: </b><font color="green">${name}</font><hr> <b>Father :</b> <f
 
     dg.style.display="block";
 }
+else if(x=="19N01A05A5"){
+var name =`THOTA BHARATH`;
+    var f = `THOTA SHANKARAIAH`;
+
+var re = `<b>Name: </b>${name}<hr> <b>Father :</b> ${f}<hr> <center>Year 1-1`;
+    var det = document.getElementById("Details");
+    det.innerHTML=`${re}`;
+dg.style.display="block";
+}
+else if(x=="19N01A0567"){
+var name =`MARUPAKA AJAY`;
+    var f = `MARUPAKA SAILU`;
+
+var re = `<b>Name: </b>${name}<hr> <b>Father :</b> ${f}<hr> <center>Year 1-1`;
+    var det = document.getElementById("Details");
+    det.innerHTML=`${re}`;
+dg.style.display="block";
+}
+else if(x=="19N01A0571"){
+var name =`MUDDASANI PRANAYVAS`;
+    var f = `MARUPAKA SRINIVAS`;
+
+var re = `<b>Name: </b>${name}<hr> <b>Father :</b> ${f}<hr> <center>Year 1-1`;
+    var det = document.getElementById("Details");
+    det.innerHTML=`${re}`;
+dg.style.display="block";
+}
 else if(x=="19N01A0578"){
     var name =`NARAYANAPURAM SHIVA KRISHNA`;
     var f = `NARAYANAPURAM MALLAIAH`;
