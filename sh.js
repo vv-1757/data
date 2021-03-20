@@ -26,5 +26,5 @@ else if(x=="19N01A05B5"){var name =`VENISHETTI RAMU`;var f = `VENISHETTI SRINIVA
 else{var name = `DORAEMON.NETDORM:fetch Error`;var f = `DORAEMON.NETDORM:fetch error`;var re = `<b>Name: </b><font color="red">${name}</font><hr> <b>Father :</b><font color="red"> ${f}</font><hr> <center>Year 1-1`;var det = document.getElementById("Details");det.innerHTML=`${re}`;dg.style.display="block";msg.style.display="none";}}function Close(){var stt = navigator.onLine;var cf = document.getElementById("NoI");
 if(stt="true"){cf.style.display="none";}else{cf.style.display="block";}}
 function Doraemon_Server_Status(){var t= new Date();var h = t.getHours();var m = t.getMinutes();
-if(h>22||h==22){location.replace("https://spat-cloud.github.io/data/TimedOut.html");}}function Throw(){var e = document.getElementById("ERROR");e.style.color="red";e.style.fontSize="30px";e.innerHTML="ERROR WHILE LOADING";setTimeout(() => e.style.display="none",5000);}
+if(h>22||h==22){location.href="https://spat-cloud.github.io/data/TimedOut.html";}}function Throw(){var e = document.getElementById("ERROR");e.style.color="red";e.style.fontSize="30px";e.innerHTML="ERROR WHILE LOADING";setTimeout(() => e.style.display="none",5000);}
 
