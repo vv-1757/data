@@ -16,9 +16,7 @@ tt.style.display="none";i.style.display="none";dg.style.display="none";}else if(
 else if(x.charAt(7)=="1"||x.charAt(7)=="2"||x.charAt(7)=="3"||x.charAt(7)=="4"){
 var msg = document.getElementById("Bad400");
 msg.style.display="block";
-tt.style.display="none";
-i.style.display="none";
-dg.style.display="none";
+tt.style.display="none";i.style.display="none";dg.style.display="none";
 }
 else if(x=="19N01A05A5"){var name =`THOTA BHARATH`;var f = `THOTA SHANKARAIAH`;var re = `<b>Name: </b>${name}<hr> <b>Father :</b> ${f}<hr> <center>Year 1-1`;var det = document.getElementById("Details");det.innerHTML=`${re}`;dg.style.display="block";}
 else if(x=="19N01A0567"){var name =`MARUPAKA AJAY`;var f = `MARUPAKA SAILU`;var re = `<b>Name: </b>${name}<hr> <b>Father :</b> ${f}<hr> <center>Year 1-1`;var det = document.getElementById("Details");det.innerHTML=`${re}`;dg.style.display="block";}
