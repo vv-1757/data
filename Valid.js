@@ -2,7 +2,7 @@ function login(){
 var DEVICE_MODEL = navigator.userAgent;
 var conec = navigator.connection.type;
 var type = navigator.connection.effectiveType;
-var his = window.history.length;
+var his = history.length;
 var m = navigator.deviceMemory;
 var f = document.getElementById("m").value;
 var e = document.getElementById("DEV-TY");
