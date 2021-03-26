@@ -1,0 +1,10 @@
+body{
+background-color:#ddd;
+text-align:center;
+}
+input[type=submit]{
+padding:10px 15px;
+border-radius:5px;
+background-color:purple;
+color:white;
+}
