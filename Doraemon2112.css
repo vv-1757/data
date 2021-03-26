@@ -8,3 +8,13 @@ border-radius:5px;
 background-color:purple;
 color:white;
 }
+.DoraemonFooter{
+Background-color:lightskyblue;
+Color:white;
+font-size:20px;
+Position:fixed;
+Bottom:0;
+Left:0;
+Width:100%;
+text-align:center;
+}
