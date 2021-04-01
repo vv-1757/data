@@ -1,6 +1,7 @@
 body{-ms-user-select:none;-moz-user-select:none;-webkit-user-select:none;-o-user-select:none;user-select:none;}
 table{width:100%;border-collapse:collapse;}table,td,th{border:1px solid black;font-size:20px;text-align:center;}
-input[type="submit"]{width:100%;padding:20px 16px;
-background-color:rgb(0, 128, 255);font-size:50px;color:white;border-radius:8px;}#dis{display:none;}
-tr:nth-child(even){background-color:lightskyblue;}tr:nth-child(odd){background-color:#d0e4fe;}#2{display:none;position:right;}.HallTic{width:100%;background-color:lightblue;font-size:50px;}.Offline{background-color:pink;margin-left-color:Red;font-size:30px;text-align:center;Padding:20px 23px;Color:red;font-weight:bold;}#fclose{float:right;font-size:30px;font-weight:4px bold;background-color:pink;border:none;}.fresults{display:none;}
+input[type="submit"]{width:100%;padding:20px 16px;background-color:rgb(0, 128, 255);font-size:50px;color:white;border-radius:8px;}
+input[type=text]:valid{color:green;box-shadow:0px 0px 32px green;}
+input[type=text]:invalid{Color:red;box-shadow:0px 0px 32px red;}
+#dis{display:none;}tr:nth-child(even){background-color:lightskyblue;}tr:nth-child(odd){background-color:#d0e4fe;}#2{display:none;position:right;}.HallTic{width:100%;background-color:#FFFFFF;font-size:50px;}.Offline{background-color:pink;margin-left-color:Red;font-size:30px;text-align:center;Padding:20px 23px;Color:red;font-weight:bold;}#fclose{float:right;font-size:30px;font-weight:4px bold;background-color:pink;border:none;}.fresults{display:none;}
 #Bad400{ display:none; font-size:12px; color:red; font-family:courier; font-weight:bold; background-color:black;}
